@@ -18,3 +18,11 @@ events.csv
 item_properties_part1.csv / part2.csv
 category_tree.csv
 
+Findings
+**The funnel's real bottleneck is View to Add-to-Cart, not checkout.** Of 1,404,179 unique viewers, only 37,722(2.69%) add an item to their cart which is 97.31% drop-off. Of Those who do add to cart, 11,719(31.07%) go on to purchase, meaning cart-to-purchase drop-off is comparatively low which is 68.93%. 
+
+**The highest traffic products convert at or near 0%.**  Item 187946 drew 2,911 unique viewers but only 2 added to cart and 0 purchases (0.07% view to Add to Cart rate). Items 370653, 96924, 298009. 335975, and 151444, each with more than 1000 viewers converted at exactly 0%. These are the items with 0 conversion and is a problem to be looked for issues such as  pricing , stock availability or listing quality rather than generalizing underperforming.
+
+
+
+
