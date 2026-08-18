@@ -3,11 +3,11 @@
 ## **Overview**. 
 This project analyzes user behavior on an e-commerce platform to understand where and why customers drop off between browsing and purchasing. Using the RetailRocket dataset — ~2.7M anonymized user events spanning 4.5 months — I reconstruct the view → add-tocart → purchase funnel, segment it to find where conversion breaks down, and translate the findings into concrete recommendations.
 
-## **Business Question**
+### **Business Question**
 
 E-commerce platforms lose the vast majority of potential revenue not at the point of sale, but in the steps leading up to it — a customer views a product, maybe adds it to their cart, and then leaves without buying. Every one of those drop-offs represents lost revenue and a signal about what's not working in the shopping experience.
 
-**Primary question:** 
+### **Primary question:** 
 
 Where in the customer journey — from product view to purchase — are we losing the most potential revenue, and what visitor or product characteristics predict whether someone converts?
 This breaks down into three sub-questions the analysis is designed to answer:
@@ -16,12 +16,12 @@ This breaks down into three sub-questions the analysis is designed to answer:
 3.	Does timing matter? Do visitors who move quickly through the funnel (view → cart → purchase) behave differently than those who linger — and can time-to-convert be used as an early signal of purchase intent?
 Why it matters: Answering these questions turns a raw event log into a prioritized action list — telling a product or marketing team where to focus limited resources (e.g., checkout redesign vs. better product recommendations vs. retargeting slow converters) rather than treating the whole funnel as equally broken.
 
-**Dataset**
+### **Dataset**
 events.csv
 item_properties_part1.csv / part2.csv
 category_tree.csv
 
-**Findings**
+### **Findings**
 **The funnel's real bottleneck is View to Add-to-Cart, not checkout.** Of 1,404,179 unique viewers, only 37,722(2.69%) add an item to their cart which is 97.31% drop-off. Of Those who do add to cart, 11,719(31.07%) go on to purchase, meaning cart-to-purchase drop-off is comparatively low which is 68.93%. 
 
 **The highest traffic products convert at or near 0%.**  Item 187946 drew 2,911 unique viewers but only 2 added to cart and 0 purchases (0.07% view to Add to Cart rate). Items 370653, 96924, 298009. 335975, and 151444, each with more than 1000 viewers converted at exactly 0%. These are the items with 0 conversion and is a problem to be looked for issues such as  pricing , stock availability or listing quality rather than generalizing underperforming.
@@ -32,7 +32,7 @@ category_tree.csv
 
 **Conversion happens fast, when it happens.** Median time from view to add-to-cart is nearly 4 minutes, cart to purchase is nearly 6 minutes.
 
-**Skills:**
+### **Skills:**
 **Python:** pandas, matplotlib
 **SQL:** CTEs, Case, Aggregate functions
 
