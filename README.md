@@ -1,10 +1,10 @@
 # E-Commerce Funnel Analysis: Identifying Drop-Offs and Revenue Oppurtunities
 
-**Overview**
-
+**Overview**. 
 This project analyzes user behavior on an e-commerce platform to understand where and why customers drop off between browsing and purchasing. Using the RetailRocket dataset — ~2.7M anonymized user events spanning 4.5 months — I reconstruct the view → add-tocart → purchase funnel, segment it to find where conversion breaks down, and translate the findings into concrete recommendations.
 
 **Business Question**
+
 E-commerce platforms lose the vast majority of potential revenue not at the point of sale, but in the steps leading up to it — a customer views a product, maybe adds it to their cart, and then leaves without buying. Every one of those drop-offs represents lost revenue and a signal about what's not working in the shopping experience.
 
 **Primary question:** 
