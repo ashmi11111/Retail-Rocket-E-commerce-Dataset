@@ -17,8 +17,11 @@ This breaks down into three sub-questions the analysis is designed to answer:
 Why it matters: Answering these questions turns a raw event log into a prioritized action list — telling a product or marketing team where to focus limited resources (e.g., checkout redesign vs. better product recommendations vs. retargeting slow converters) rather than treating the whole funnel as equally broken.
 
 ### **Dataset**
+
 events.csv
+
 item_properties_part1.csv / part2.csv
+
 category_tree.csv
 
 ### **Findings**
@@ -33,7 +36,9 @@ category_tree.csv
 **Conversion happens fast, when it happens.** Median time from view to add-to-cart is nearly 4 minutes, cart to purchase is nearly 6 minutes.
 
 ### **Skills:**
+
 **Python:** pandas, matplotlib
+
 **SQL:** CTEs, Case, Aggregate functions
 
 
