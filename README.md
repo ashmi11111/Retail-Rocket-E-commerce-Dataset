@@ -1,7 +1,7 @@
-# E-Commerce Funnel Analysis: Identifying Drop-Offs and Revenue Oppurtunities
+# E-Commerce Funnel Analysis: Identifying Drop-Offs and Revenue Opportunities
 
 ## **Overview**. 
-This project analyzes user behavior on an e-commerce platform to understand where and why customers drop off between browsing and purchasing. Using the RetailRocket dataset ~2.7M anonymized user events spanning 4.5 months, I reconstruct the view to add-tocart to purchase funnel, segment it to find where conversion breaks down, and translate the findings into concrete recommendations.
+This project analyzes user behavior on an e-commerce platform to understand where and why customers drop off between browsing and purchasing. Using the RetailRocket dataset ~2.7M anonymized user events spanning 4.5 months, I reconstruct the view to add-to-cart to purchase funnel, segment it to find where conversion breaks down, and translate the findings into concrete recommendations.
 
 ### **Business Question**
 
@@ -18,6 +18,13 @@ E-commerce platforms lose the vast majority of potential revenue not at the poin
 
 events.csv
 
+### **Skills:**
+
+**Python:** pandas, matplotlib
+
+**SQL:** CTEs, Case, Aggregate functions
+
+
 ### **Findings**
 **The funnel's real bottleneck is View to Add-to-Cart, not checkout.** Of 1,404,179 unique viewers, only 37,722(2.69%) add an item to their cart which is 97.31% drop-off. Of Those who do add to cart, 11,719(31.07%) go on to purchase, meaning cart-to-purchase drop-off is comparatively low which is 68.93%. 
 
@@ -29,11 +36,15 @@ events.csv
 
 **Conversion happens fast, when it happens.** Median time from view to add-to-cart is nearly 4 minutes, cart to purchase is nearly 6 minutes.
 
-### **Skills:**
+### **Business Recommendations** ###
+1.**Improve high-traffic, low-conversion products:** Review pricing, product descriptions, images, reviews, and availability for products that receive many views but few add-to-cart actions.
+2.**Use targeted recommendations:** Show related products or alternatives who view the product but do not add to cart.
+2.**Send personalized ads** to bring them back to the product page and encourage conversion.
+3. **A/B test low conversion product** to identify changes that better appeal to users and increase add-to-cart.
 
-**Python:** pandas, matplotlib
+I believe this recommendations will best address the funnel's biggest drop-off, improve conversion and increase revenue.
 
-**SQL:** CTEs, Case, Aggregate functions
+
 
 
 
