@@ -37,9 +37,9 @@ events.csv
 **Conversion happens fast, when it happens.** Median time from view to add-to-cart is nearly 4 minutes, cart to purchase is nearly 6 minutes.
 
 ### **Business Recommendations** ###
-1.**Improve high-traffic, low-conversion products:** Review pricing, product descriptions, images, reviews, and availability for products that receive many views but few add-to-cart actions.
-2.**Use targeted recommendations:** Show related products or alternatives who view the product but do not add to cart.
-2.**Send personalized ads** to bring them back to the product page and encourage conversion.
+1. **Improve high-traffic, low-conversion products:** Review pricing, product descriptions, images, reviews, and availability for products that receive many views but few add-to-cart actions.
+2. **Use targeted recommendations:** Show related products or alternatives who view the product but do not add to cart.
+2. **Send personalized ads** to bring them back to the product page and encourage conversion.
 3. **A/B test low conversion product** to identify changes that better appeal to users and increase add-to-cart.
 
 I believe this recommendations will best address the funnel's biggest drop-off, improve conversion and increase revenue.
