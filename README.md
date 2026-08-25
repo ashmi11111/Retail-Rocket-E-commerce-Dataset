@@ -24,6 +24,8 @@ events.csv
 
 **SQL:** CTEs, Case, Aggregate functions
 
+**Data Visualization:** Tableau
+
 
 ### **Findings**
 **The funnel's real bottleneck is View to Add-to-Cart, not checkout.** Of 1,404,179 unique viewers, only 37,722(2.69%) add an item to their cart which is 97.31% drop-off. Of Those who do add to cart, 11,719(31.07%) go on to purchase, meaning cart-to-purchase drop-off is comparatively low which is 68.93%. 
